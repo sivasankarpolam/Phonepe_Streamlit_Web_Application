@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 
-df = pd.read_csv(r'phonepe_data\Agg_User.csv')
+df = pd.read_csv('Agg_User.csv')
 
 st.title("Brand-wise User Analysis Dashboard")
 
