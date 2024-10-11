@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.title("PhonePe Transaction Interactive Dashboard")
 
-df = pd.read_csv(r'D:\sivadownload\Phonepe_Streamlit_dashboard\phonepe_data\Agg_Trans.csv')
+df = pd.read_csv(r'phonepe_data\Agg_Trans.csv')
 
 
 

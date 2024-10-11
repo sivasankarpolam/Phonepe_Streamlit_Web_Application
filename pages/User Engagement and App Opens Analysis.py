@@ -5,7 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load Data
-df = pd.read_csv(r"D:\sivadownload\Phonepe_Streamlit_dashboard\phonepe_data\Map_User.csv")
+df = pd.read_csv(r"phonepe_data\Map_User.csv")
 
 # Business Problem Statement and Objectives
 st.title("User Engagement and App Opens Analysis Dashboard")

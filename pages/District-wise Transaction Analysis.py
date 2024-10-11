@@ -4,7 +4,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 
-df = pd.read_csv(r"D:\sivadownload\Phonepe_Streamlit_dashboard\phonepe_data\Map_Trans.csv")
+df = pd.read_csv(r"phonepe_data\Map_Trans.csv")
 
 st.title("District-wise Transaction Analysis Dashboard")
 
